@@ -1,0 +1,46 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the h1 header */
+h1 {
+    color: rgb(4, 42, 209) 51, 51;
+}
+
+/* Style the input fields and buttons */
+input[type="text"], button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the password input field */
+#password {
+    width: 300px;
+}
+
+/* Style the Generate Password button */
+#generate {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the Clear button */
+#clear {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
